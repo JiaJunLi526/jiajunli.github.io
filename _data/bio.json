@@ -6,25 +6,31 @@
     "email": "jiajunli@hawaii.edu",
     "website": "https://jiajunli.github.io",
     "summary": "I am studying for a B.S. in Computer Engineering at the Collge of Engineering at the University of Hawaii. I expect to graduate in Spring, 2027.",
-    "location": { "address": "", "postalCode": "96826", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": {
+      "address": "",
+      "postalCode": "96826",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
       { "network": "github", "username": "jiajunli526", "url": "http://github.com/jiajunli526" },
-      { "network": "linkedin", "username": "jiajunli", "url": "https://linkedin.com/in/jia-jun-li-8b6b72369" },
+      { "network": "linkedin", "username": "jiajunli", "url": "https://linkedin.com/in/jia-jun-li-8b6b72369" }
     ]
   },
   "interests": [
     { "name": "Robotics" },
     { "name": "Embedded Systems" },
-    { "name": "Multi-Robot Systems" },
+    { "name": "Multi-Robot Systems" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Python", "ROS" ]
-    
+      "keywords": ["C", "C++", "Python", "ROS"]
+    },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Ubuntu", "Git/GitHub" ]
+      "keywords": ["Windows", "Ubuntu", "Git/GitHub"]
     }
   ],
   "education": [
@@ -34,8 +40,7 @@
       "studyType": "B.S.",
       "startDate": "2023-09-01",
       "endDate": "Present",
-      "courses": [
-      ]
+      "courses": []
     }
   ],
   "work": [
@@ -50,7 +55,7 @@
         "Update School of Architecture website",
         "Manage tech equipment in all classrooms"
       ]
-    },
+    }
   ],
   "awards": [
     {
@@ -67,8 +72,6 @@
     }
   ],
   "references": [
-    {
-      "name": "Available upon request"
-    }
+    { "name": "Available upon request" }
   ]
 }
