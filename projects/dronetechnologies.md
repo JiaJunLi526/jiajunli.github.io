@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/accelerometerreadout/subaru_front.png
+image: img/dronetechnologies/drone_logo.png
 title: "University of Hawaii Drone Technologies (UHDT)"
 date: 2025
 published: true
@@ -14,9 +14,8 @@ summary: "A Vertically Integrated Project(VIP) with the College of Engineering."
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/accelerometerreadout/subaru_square.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/accelerometerreadout/electronics.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/accelerometerreadout/accelerometer.jpg" class="img-thumbnail" >
+  <img width="200px" src="../img/dronetechnologies/drone.png" class="img-thumbnail" >
+  <img width="200px" src="../img/dronetechnologies/drone_air.jpeg" class="img-thumbnail" >
 </div>
 
 A Vertically Integrated Project (VIP) brings together faculty mentors, graduate researchers, and undergraduate students from freshmen to seniors. Senior members of the team (faculty, graduate students, and upper-division undergraduates) mentor the more junior members.
