@@ -10,7 +10,7 @@ labels:
   - MavLink
   - ROS
   - Robotics
-summary: "A Vertically Integrated Project(VIP) with the College of Engineering."
+summary: "A Vertically Integrated Project (VIP) with the College of Engineering."
 ---
 
 <div class="text-center p-4">
