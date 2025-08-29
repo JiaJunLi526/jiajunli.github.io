@@ -10,7 +10,7 @@ labels:
   - Learning
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/growing/plant.png">
 
 I tend to start a lot of new interests, whether they are different types of games or new sources of inspiration. Many of these fade away early on when I hit a roadblock and dont feel like im growing, but a few manage to take root and grow into something more meaningful. One of these is software engineering, which kept gaining momentum through YouTube, where I saw creators combine imagination and programming to build exciting and entertaining projects.
 
