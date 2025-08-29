@@ -16,4 +16,4 @@ I tend to start a lot of new interests, whether they are different types of game
 
 I don’t know exactly where this path will lead me, but right now I’m branching out and experimenting with a few different ideas. Each project or concept I try adds a little more to my foundational roots, even if some of them may not last long. The process of trying, overcoming the challenges, and learning still gives me the experience and motivation I need to keep moving upwards. 
 
-This is still just the beginning, like a sprout pushing above the soil. With enough time, effort, and curiosity, I believe it can grow into something stronger that provides both fulfillment and new opportunities for adventure. For now, I’m focused on nurturing that growth and seeing where it leads me in my own career and life.
+This is only just the beginning, like a sprout pushing above the soil. With enough time, effort, and curiosity, I believe it can grow into something bigger that provides both fulfillment and new opportunities for adventure. But for now, I’m focused on nurturing that growth and seeing where it leads me in my own career and life.
