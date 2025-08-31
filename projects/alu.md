@@ -12,9 +12,9 @@ summary: "A project building and simulating individual operations of an ALU for 
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/alu/alu_req.png" class="img-thumbnail" >
-  <img width="200px" src="../img/alu/alu_submath.png" class="img-thumbnail" >
-  <img width="200px" src="../img/alu/alu_sub.png" class="img-thumbnail" >
+  <img width="600px" src="../img/alu/alu_req.png" class="img-thumbnail" >
+  <img width="600px" src="../img/alu/alu_submath.png" class="img-thumbnail" >
+  <img width="600px" src="../img/alu/alu_sub.png" class="img-thumbnail" >
   <img width="200px" src="../img/alu/alu_final.png" class="img-thumbnail" >
 </div>
 
