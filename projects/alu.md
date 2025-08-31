@@ -18,11 +18,47 @@ summary: "A project building and simulating individual operations of an ALU for 
   <img width="200px" src="../img/alu/alu_final.png" class="img-thumbnail" >
 </div>
 
-A Vertically Integrated Project (VIP) brings together faculty mentors, graduate researchers, and undergraduate students from freshmen to seniors. Senior members of the team (faculty, graduate students, and upper-division undergraduates) mentor the more junior members.
+This final project for ECE 260 involved solving truth tables, simulating circuits in Falstad, and coding the design in Verilog with its corresponding testbench. The project helped me understand key CPU operations and the process of manually designing each module.
 
-UHDT is a project focused on developing autonomous UAVs for search and rescue missions and, more recently, for unexploded ordnance detection and mapping. The UHDT team consists of 40+ members across mechanical, electrical, and computer engineering. I became a member in Fall 2023 and was appointed software subsystem lead in Spring 2025, where I focus on autonomous navigation and related capabilities.
+I began by creating the truth tables for each operation, then used Karnaugh maps (K-maps) to derive and simplify the Boolean equations. With these simplified equations, I started wiring the logic in the Falstad circuit simulator. For each operation, I built and saved a separate module, then combined all the modules using a multiplexer to control which operation was executed.
 
-My first major effort was integrating a LiDAR sensor into the Ardupilot software for obstacle detection. I set up a ROS workspace and installed the Livox LiDAR SDK package. After configuring the launch files, I successfully streamed point cloud data into Rviz. I then published the point cloud data to Ardupilot, enabling the flight controller to detect obstacles. Currently, I am setting up the Gazebo simulator for software-in-the-loop testing of both static and dynamic obstacle avoidance.
+Through this project, I gained valuable experience in deriving K-maps from truth tables and applying Boolean algebra to simplify equations. More importantly, I was able to see how these fundamental tools can be used to build larger, real world systems.
 
-Another key task was transitioning the Python DroneKit codebase into a ROS framework using MAVROS. I set up the ROS workspace, installed MAVROS and the MavLink package, and experimented with various methods for dynamic waypoint navigation. Ultimately, I settled on sending GlobalPositionTarget messages through the mavros_msgs and into the flight controller, which provided a reliable way to update waypoints dynamically. I then refactored the old DroneKit functions into MAVROS equivalents. Finally, I combined the LiDAR and MAVROS workspaces, creating a unified ROS framework that is ready for future integrations.
+This is the verilog code:
+```verilog
+module ALU (
+  input  [3:0] a, b,
+  input  [2:0] s,
+  output [3:0] F,
+  output Z, V, C
+);
 
+  reg [7:0] out;
+  
+  always @(*) begin
+    case (s)
+      3'b000: out = 2 * a;
+      3'b001: out = a / 2;
+      3'b010: out = a * b;
+      3'b011: out = a + b;
+      3'b100: out = a - b;
+      3'b101: out = b - a;
+      3'b110: out = a ^ b;
+      3'b111: out = a < b;
+      default: out = 0;
+    endcase
+  end
+
+  assign Z = (out == 4'd0);
+  assign V = (out > 127 || out < -128);
+  assign C = (s == 3'b011 && (out[4] | (a[3] & b[3]))) 
+          || (s == 3'b100 && (a[3] < b[3])) 
+          || (s == 3'b101 && (b[3] < a[3]));
+  assign F = out[3:0];
+  
+endmodule
+```
+
+        
+          
+        
