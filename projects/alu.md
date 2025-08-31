@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/alu/alu_front.png
+image: img/alu/alu_front.jpg
 title: "4-Bit Arithmetic logic unit (ALU)"
 date: 2025
 published: true
