@@ -1,21 +1,21 @@
 ---
 layout: project
 type: project
-image: img/dronetechnologies/drone_logo.png
-title: "4-Bit ALU"
+image: img/alu/alu_front.png
+title: "4-Bit Arithmetic logic unit (ALU)"
 date: 2025
 published: true
 labels:
-  - Python
-  - MavLink
-  - ROS
-  - Robotics
+  - Digital Logic Design
+  - Verilog
 summary: "A project building and simulating individual operations of an ALU for ECE 260."
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/dronetechnologies/drone.png" class="img-thumbnail" >
-  <img width="200px" src="../img/dronetechnologies/drone_air.jpeg" class="img-thumbnail" >
+  <img width="200px" src="../img/alu/alu_req.png" class="img-thumbnail" >
+  <img width="200px" src="../img/alu/alu_submath.png" class="img-thumbnail" >
+  <img width="200px" src="../img/alu/alu_sub.png" class="img-thumbnail" >
+  <img width="200px" src="../img/alu/alu_final.png" class="img-thumbnail" >
 </div>
 
 A Vertically Integrated Project (VIP) brings together faculty mentors, graduate researchers, and undergraduate students from freshmen to seniors. Senior members of the team (faculty, graduate students, and upper-division undergraduates) mentor the more junior members.
