@@ -16,7 +16,7 @@ summary: "The project I worked on as an intern at the Subaru Telescope."
   <img width="200px" src="../img/accelerometerreadout/subaru_square.jpg" class="img-thumbnail" >
   <img width="200px" src="../img/accelerometerreadout/electronics.jpg" class="img-thumbnail" >
   <img width="200px" src="../img/accelerometerreadout/accelerometer.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/accelerometerreadout/subaru_data.png" class="img-thumbnail" >
+  <img width="400px" src="../img/accelerometerreadout/subaru_data.png" class="img-thumbnail" >
 </div>
 
 Ground-based telescopes like Subaru face two dominant sources of pointing disturbances:
