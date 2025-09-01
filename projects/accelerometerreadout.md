@@ -24,7 +24,7 @@ atmospheric turbulence and mechanical vibrations. While turbulence is broadband 
 mechanical vibrations typically occur at discrete frequencies tied to hardware components. These
 vibrations affect high-contrast imaging systems, particularly the Subaru Coronagraphic Extreme
 Adaptive Optics (SCExAO) instrument, causing blur in the captured image. Prior vibration studies
-using SCExAO revealed that low-frequency disturbances—below 10 Hz—originated from the
+using SCExAO revealed that low-frequency disturbances (below 10 Hz) originated from the
 telescope itself. These vibrations were characterized using accelerometers, with frequency patterns
 correlating to the telescope’s rotational speeds. To correct for these vibrations, a low-latency
 correction system is being developed using accelerometer real-time data. The accelerometers
