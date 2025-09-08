@@ -12,7 +12,7 @@ labels:
 <img width="300px" class="rounded float-start pe-4" src="../img/question/question.png">
 
 ## Engineer's Toolbox
-Throughout my undergraduate career as a computer engineering student, I have always been told that communication is the most important skill engineers must possess. I have taken that to heart throughout my collaborative projects and workplaces, and I’ve realized that asking questions makes up the largest part of that communication skill. I have also seen firsthand that poorly worded questions can waste time for both the person asking and the person trying to answer. A great place to see this in action is Stack Overflow, where many software engineers post their unique questions and receive answers from people with more experience. At first, I didn’t have even a basic understanding of how to ask proper questions, but after reading Raymond’s essay I’m definitely keeping a good note of a few important things.
+Throughout my undergraduate career as a computer engineering student, I have always been told that communication is the most important skill engineers must possess. I have taken that to heart throughout my collaborative projects and workplaces, and I’ve realized that asking questions makes up the largest part of that communication skill. I have also seen firsthand that poorly worded questions can waste time for both the person asking and the person trying to answer. A great place to see this in action is Stack Overflow, where many software engineers post their unique questions and receive answers from people with more experience.
 
 ## A Smart Question
 A smart question is something like the post titled “Better way to search for a node in a binary tree.” 
