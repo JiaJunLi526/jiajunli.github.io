@@ -119,7 +119,7 @@ Node *search(Node *head, int key) {
 ```
 This question received an excellent response that gave more than enough information to fully answer the question. It also included helpful tips on why the original code should not be used in production. This question was a fantastic smart question that was able to get a more than helpful answer.
 
-## A Not Smart Question
+## A Not So Smart Question
 
 This next example is not from a real Stack Overflow post, but it illustrates what a bad question looks like. Imagine a title such as “Help me fix my code fast!!!” this already gives a very vague description with no real information about the problem. 
 ```
