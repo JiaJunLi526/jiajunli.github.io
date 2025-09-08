@@ -121,7 +121,32 @@ This question received an excellent response that gave more than enough informat
 
 ## A Not Smart Question
 
-This next example is not from a real Stack Overflow post, but it illustrates what a bad question looks like. Imagine a title such as “Help me fix my code fast!!!” this already gives a very vague description with no real information about the problem. The body of the question provides no background about what the person is trying to achieve and simply pastes some broken code with the expectation that others will fix it. This leaves readers confused because they cannot clearly understand what the actual issue is. On top of that, the question shows no prior effort in trying to solve the problem, which makes it look careless. Adding a sense of urgency (“fast!!!”) further discourages people from helping because it feels like the opportunity to provide meaningful guidance has already passed. The responses to this kind of question would likely be just more questions asking for clarification, which wastes time for both parties and does not provide effective or efficient help.
+This next example is not from a real Stack Overflow post, but it illustrates what a bad question looks like. Imagine a title such as “Help me fix my code fast!!!” this already gives a very vague description with no real information about the problem. 
+```
+Q: Help me fix my code fast!!!
+
+My program is supposed to build a binary tree but it keeps giving me errors.
+Here’s the code:
+
+int main() {
+Node* root;
+insert(root, 10);
+insert(root, 20)
+insert(root 30);
+// it crashes here
+}
+
+I need to turn this in soon!!!
+```
+The body of the question provides no background about what the person is trying to achieve and simply pastes some broken code with the expectation that others will fix it. This leaves readers confused because they cannot clearly understand what the actual issue is. On top of that, the question shows no prior effort in trying to solve the problem, which makes it look careless. Adding a sense of urgency (“fast!!!”) further discourages people from helping because it feels like the opportunity to provide meaningful guidance has already passed. 
+```
+A: What language is this supposed to be? Please add details.
+
+A: Can you post the full error message? We can’t help without it.
+
+A: Too broad. Show what you’ve tried and what exactly isn’t working.
+```
+This demonstrates how a vague, careless, and urgent-sounding question goes against the principles in Raymond’s essay. It provides no context, no evidence of effort, and no clear expectations. As a result, the responses waste time for both the asker and the community, and no effective or efficient help is given. In contrast to the Smart Question example, this shows how the way a question is framed directly determines whether it will receive thoughtful, useful answers or just confusion and frustration.
 
 ## Final Insights
 While these examples provide a clear sense of the qualities that make questions smart or not so smart, I learned the reality is that it is not always crystal clear. Much depends on the complexity of the question itself, which may require more research and preparation than expected before it can be framed properly into a smart question. The more complex and difficult the problem, the harder it becomes to write a smart question that meets Raymond’s standards. Asking a good question often takes time, and receiving an answer may take even longer, but if the question is constructed thoughtfully it should always lead to a productive exchange between both parties.
