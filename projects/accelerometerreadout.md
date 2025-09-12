@@ -19,6 +19,9 @@ summary: "The project I worked on as an intern at the Subaru Telescope."
   <img width="400px" src="../img/accelerometerreadout/subaru_data.png" class="img-thumbnail" >
 </div>
 
+This internship was through the Akamai Workforce Initiative program a collaboration with Maunakea Observatories and University of California, Santa Cruz. 
+
+## Abstract
 Ground-based telescopes like Subaru face two dominant sources of pointing disturbances:
 atmospheric turbulence and mechanical vibrations. While turbulence is broadband and random,
 mechanical vibrations typically occur at discrete frequencies tied to hardware components. These
@@ -38,5 +41,8 @@ on the top ring of the telescope to provide real-time vibration measurements and
 which will be used to create and implement a linear control model to actuate the adaptive optics
 tip-tilt mirror for vibration correction. This system aims to enhance image stability and improve
 overall SCExAO performance, particularly during sensitive, high-contrast observations.
+
+## Reflection
+Through this internship, I worked closely with telescope operators, technicians, and scientists. It was an invaluable introduction to the field of astronomy, an area in which I had no prior background to. I gained first hand experience with active research and the technical challenges involved in maintaing and improving instrumentation for a world-class observatory. This experience strengthened both my technical skills and my appreciation for collaboration in large scale scientific projects.
 
 You can learn more here [GitHub Repository](https://github.com/JiaJunLi526/VibrationControlSystem).
