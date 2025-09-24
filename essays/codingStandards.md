@@ -11,7 +11,7 @@ labels:
   - Lint
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/noisy/noisyimg.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/codingPersonality/codingP.png">
 
 ## The Personality of the Language
 Coding standards can be pretty annoying when you first start coding, but over time you adapt and the number of errors you run into gets smaller and smaller. They’re essentially guidelines for how to write in a given programming language, and almost every language has its own quirks or unique rules that set it apart from others. In a way, coding standards are like the “personality” of a language. Their main purpose is to reduce simple mistakes and make code more consistent and readable, not just for yourself, but also for other software engineers who might need to read or maintain it later.
